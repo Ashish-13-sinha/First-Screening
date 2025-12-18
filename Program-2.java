@@ -2,7 +2,7 @@ public class Main{
   public List<Integer>generatedValue(int a){
     List<Integer>ans=new ArrayList<>();
     for(int i=0;i<a;i++){
-      ans.add(i+(i+1))
+      ans.add(i+(i+1));
     }
     return ans;
   }
